@@ -1,0 +1,93 @@
+{
+    "graph": {
+        "viewport": {
+            "xmin": -13.941468422862288,
+            "ymin": -7.753372603341518,
+            "ymax": 13.816712083433767,
+            "xmax": 16.63114512935047
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "color": "#c74440",
+                "latex": "N=37",
+                "type": "expression",
+                "id": "41",
+                "slider": {
+                    "max": "40",
+                    "hardMin": true,
+                    "hardMax": true,
+                    "step": "2",
+                    "min": "1"
+                }
+            },
+            {
+                "color": "#2d70b3",
+                "latex": "x+y=0",
+                "lineStyle": "DASHED",
+                "type": "expression",
+                "id": "1"
+            },
+            {
+                "color": "#2d70b3",
+                "latex": "\\left(a,b\\right)",
+                "type": "expression",
+                "id": "37"
+            },
+            {
+                "latex": "a=4.06",
+                "color": "#6042a6",
+                "slider": {
+                    "max": "80.6",
+                    "min": "-22.4"
+                },
+                "hidden": true,
+                "type": "expression",
+                "id": "39"
+            },
+            {
+                "latex": "b=2",
+                "color": "#000000",
+                "slider": {
+                    "max": "63.5",
+                    "min": "-30.3"
+                },
+                "hidden": true,
+                "type": "expression",
+                "id": "40"
+            },
+            {
+                "color": "#388c46",
+                "latex": "n=\\left[0,\\frac{1}{N},...,\\frac{N-1}{N}\\right]\\pi",
+                "type": "expression",
+                "id": "38"
+            },
+            {
+                "color": "#6042a6",
+                "latex": "t=\\tan\\left(n\\right)",
+                "type": "expression",
+                "id": "44"
+            },
+            {
+                "color": "#c74440",
+                "latex": "\\left(x-\\frac{a-b+2at}{2+2t}\\right)+t\\left(y-\\frac{1}{2}\\left(b+\\frac{b-ta}{1+t}\\right)\\right)=0",
+                "type": "expression",
+                "id": "46"
+            },
+            {
+                "color": "#c74440",
+                "latex": "\\left(x-\\frac{at-b}{1+1t}\\right)+t\\left(y-\\frac{b-ta}{1+t}\\right)=0",
+                "hidden": true,
+                "type": "expression",
+                "id": "45"
+            },
+            {
+                "color": "#2d70b3",
+                "type": "expression",
+                "id": "47"
+            }
+        ]
+    },
+    "version": 6
+}
