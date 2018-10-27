@@ -8,7 +8,7 @@ let win;
 
 function createWindow() {
     // Create browser window
-    win = new BrowserWindow({width:800, height:600, icon: path.join(__dirname, '/build/icon.png')});
+    win = new BrowserWindow({width:800, height:600, icon: path.join(__dirname, '/res/icons/icon.png')});
 
     
     win.loadURL(url.format({
@@ -64,7 +64,7 @@ function createWindow() {
             submenu: [
                 // {role: 'reload'},
                 // {role: 'forcereload'},
-                {role: 'toggledevtools'},
+                // {role: 'toggledevtools'},
                 // {type: 'separator'},
                 {role: 'resetzoom'},
                 {role: 'zoomin'},

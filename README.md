@@ -1,19 +1,20 @@
 # Desmos Desktop
 
-[Desmos](https://www.desmos.com/about) is an advanced graphing calculator implemented as a web application and a mobile application written in JavaScript. Here is a simple desktop version.
+[Desmos](https://www.desmos.com/about) is an advanced graphing calculator implemented as a web application and a mobile application written in JavaScript. Here is a very simple cross-platform desktop version.
 
-[Desmos](https://www.desmos.com/about) 是一款优秀的、免费的在线数学函数计算器。它基于JavaScript，有在线版和手机版。基于[Electron](http://electron.atom.io/)，这里是一个**非常简单的离线的linux桌面版**。(emm...)
+[Desmos](https://www.desmos.com/about) 是一款优秀的、免费的在线数学函数计算器。它基于JavaScript，有在线版和手机版。这里是一个基于[Electron](http://electron.atom.io/)的**非常简单的离线的桌面版**，支持linux, Mac 和 Win平台。(emm...)
 
 <img src="./res/app.png" width="600"/>
 
 ## Build
 ```
-git clone ...
-cd ...
+git clone https://github.com/DingShizhe/Desmos-Desktop.git
+cd Desmos-Desktop
 npm install -d
 npm run dist
-cd dist && ls   # wow
+cd dist && ls   # WOW! Then move the package wherever you want. 
 ```
+On linux, you need edit ./res/appimagekit-desmos.desktop properly and move it to ./local/share/applications.
 
 ## Dependency
 - [Node.js](https://nodejs.org/en/)
@@ -23,7 +24,7 @@ cd dist && ls   # wow
 
 ## Simple Functions Now
 Now you can use this simple app to
-- Draw mathematical curves as the web version
+- Draw mathematical curves just like the web version
 - Export screenshot as `.png` file
 - Save or reload graph state as `.des` file (just json)
   .
