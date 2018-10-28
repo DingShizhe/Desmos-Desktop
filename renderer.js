@@ -60,17 +60,19 @@ function newFile() {
 
 
 function openFile(filePath=null, init=false) {
+
     if (!init) {
-        var canceled = !askSaveIfNeed();
         if (canceled) return;
+        var canceled = !askSaveIfNeed();
     }
 
-    if (filePath == '')
-        return;
-    if (filePath == null) {
+    if (!filePath && init) { return; }
+    if (!filePath) {
         filePaths = dialog.showOpenDialog({filters: [ {name: 'des', extensions: ['des'] }]});
+        if (!filePaths) return;
         filePath = filePaths[0];
     }
+
     fs.readFile(filePath, (err, data) => {
         if(err){
             showAlert("Error on openning :( " + err.message);
@@ -144,7 +146,15 @@ function exportImage() {
 }
 
 
+function isStateNull() {
+    if (StateData.last_state == null && calculator.getState().expressions.list[0].latex === undefined)
+        return true;
+    else return false;
+}
+
+
 function isSaved() {
+    if (isStateNull()) return true;
     if (StateData.file_path == "" || StateData.last_state == null)
         return false;
     else {
@@ -173,18 +183,10 @@ function askSaveIfNeed(){
         return true;
 }
 
-function isStateNull() {
-    if (StateData.last_state == null && calculator.getState().expressions.list[0].latex === undefined)
-        return true;
-    else return false;
-}
+
 
 function exitApp() {
-    var exit;
-    if (!isStateNull())
-        exit = askSaveIfNeed();
-    else exit = true;
-    
+    var exit = askSaveIfNeed();    
     if (exit) {
         showAlert('Exiting...', 0);
         setTimeout(()=>{
