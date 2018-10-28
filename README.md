@@ -2,7 +2,7 @@
 
 [Desmos](https://www.desmos.com/about) is an advanced graphing calculator implemented as a web application and a mobile application written in JavaScript. Here is a very simple cross-platform desktop version.
 
-[Desmos](https://www.desmos.com/about) 是一款优秀的、免费的在线数学函数计算器。它基于JavaScript，有在线版和手机版。这里是一个基于[Electron](http://electron.atom.io/)的**非常简单的离线的桌面版**，支持linux, Mac 和 Win平台。(emm...)
+[Desmos](https://www.desmos.com/about) 是一款优秀的、免费的在线数学函数计算器。它基于JavaScript，有在线版和手机版。这里是一个基于[Electron](http://electron.atom.io/)的**简单的离线桌面版**，支持linux, Mac 和 Win平台(因为穷，目前还没有在Mac上尝试，但应该是支持的)。
 
 <img src="./res/app.png" width="600"/>
 
@@ -22,13 +22,18 @@ On linux, you need edit ./res/appimagekit-desmos.desktop properly and move it to
 - [Desmos API](https://www.desmos.com/api/)
 
 
-## Simple Functions Now
+## Simple Functions (features) Now
 Now you can use this simple app to
 - Draw mathematical curves just like the web version
 - Export screenshot as `.png` file
 - Save or reload graph state as `.des` file (just json)
+- Fade out message effect.
+- Note when new a file or close file but current file hasnot been saved
+- Open the last openned file when launch
   .
 
 ## Next
 
-有空再学学js再做。希望对初等数学爱好者和中学教学有所帮助。
+有空再学学js再继续做。希望对初等数学爱好者和中学教学有所帮助。
+
+Hope this helpful.

@@ -14,8 +14,10 @@
     "graphics"
   ],
   "author": "DingShizhe",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "electron-store": "^2.0.0",
+    "material-design-icons": "^3.0.1"
   },
   "build": {
     "linux": {
@@ -32,6 +34,7 @@
   "devDependencies": {
     "electron": "^3.0.6",
     "electron-builder": "^20.28.4",
+    "electron-store": "2.0.0",
     "path": "0.12.7",
     "url": "0.11.0",
     "fs": "0.0.1-security"

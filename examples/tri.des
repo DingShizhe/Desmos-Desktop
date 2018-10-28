@@ -1,0 +1,36 @@
+{
+    "version": 5,
+    "graph": {
+        "viewport": {
+            "xmin": -3.093534390680069,
+            "ymin": -2.327068921803766,
+            "xmax": 2.855564952616557,
+            "ymax": 2.6282480586158425
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "expression",
+                "id": "graph1",
+                "color": "#2d70b3",
+                "latex": "y=\\sin x",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "2",
+                "color": "#388c46",
+                "latex": "y=\\cos x",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "3",
+                "color": "#fa7e19",
+                "latex": "y=\\tan x",
+                "style": "SOLID"
+            }
+        ]
+    }
+}

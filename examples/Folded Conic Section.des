@@ -1,0 +1,84 @@
+{
+    "graph": {
+        "viewport": {
+            "xmin": -1.7370399726330634,
+            "ymin": -1.0946180005041772,
+            "ymax": 1.4896585979966037,
+            "xmax": 1.9258148981422691
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "color": "#c74440",
+                "latex": "N=35",
+                "type": "expression",
+                "id": "1",
+                "slider": {
+                    "max": "100",
+                    "hardMin": true,
+                    "hardMax": true,
+                    "step": "1",
+                    "min": "1"
+                }
+            },
+            {
+                "color": "#000000",
+                "type": "expression",
+                "id": "34"
+            },
+            {
+                "color": "#2d70b3",
+                "latex": "n=\\left[0,\\frac{1}{N},...,\\frac{N-1}{N}\\right]\\cdot2\\pi",
+                "type": "expression",
+                "id": "26"
+            },
+            {
+                "color": "#2d70b3",
+                "latex": "\\left(a,b\\right)",
+                "type": "expression",
+                "id": "30"
+            },
+            {
+                "color": "#388c46",
+                "latex": "a=1.42",
+                "hidden": true,
+                "type": "expression",
+                "id": "32"
+            },
+            {
+                "color": "#6042a6",
+                "latex": "b=1.09",
+                "hidden": true,
+                "type": "expression",
+                "id": "33"
+            },
+            {
+                "color": "#2d70b3",
+                "latex": "x^2+y^2=1",
+                "lineStyle": "DASHED",
+                "type": "expression",
+                "id": "27"
+            },
+            {
+                "text": "(x - a)^2 + (y - b)^2 - (x - cos)^2 - (y - sin)^2 // Simplify",
+                "type": "text",
+                "id": "36"
+            },
+            {
+                "color": "#c74440",
+                "latex": "a^2+b^2-1-2ax-2by+2x\\cos\\left(n\\right)+2y\\sin\\left(n\\right)=0",
+                "type": "expression",
+                "id": "35"
+            },
+            {
+                "color": "#c74440",
+                "latex": "\\left(y-\\sin\\left(n\\right)\\right)\\left(b-\\sin\\left(n\\right)\\right)+\\left(x-\\cos\\left(n\\right)\\right)\\left(a-\\cos\\left(n\\right)\\right)=0",
+                "hidden": true,
+                "type": "expression",
+                "id": "37"
+            }
+        ]
+    },
+    "version": 6
+}

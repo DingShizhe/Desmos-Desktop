@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Info</title>
+
+    <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            a {
+                color: darkcyan
+            }
+
+            p {
+                margin-left: 0px;
+                margin-bottom: 10px;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #333333;
+                font-size: 25px;
+                left: 50px;
+            }
+
+            body {
+                margin-left: 30px;
+                margin-right: 35px;
+                margin-top: 30px;
+                color: #777777;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            }
+
+            </style>
+</head>
+<body>
+    <p> 
+        
+        About <a href="http://www.desmos.com">Desmos</a> </p>
+
+        Desmos is an advanced graphing calculator implemented as a web application and a mobile application written in JavaScript.
+
+        
+        <p> About <a href="https://electronjs.org/">Electron</a>  </p>
+        
+        Electron is a popular platform which you can build cross desktop apps with JavaScript, HTML, and CSS.
+        
+        <p> About this application </p>
+        
+        This application is based on Desmos API and Electron build by <a href="https://github.com/DingShizhe">DingShizhe</a>. This little project has been uploaded as a <a href="https://github.com/DingShizhe/Desmos-Desktop"> Github rep </a>. Would you give me a star if you like it? ;)
+        
+    </body>
+
+    <script>
+        remote = require('electron');
+
+        const shell = require('electron').shell;
+
+        var myHref = document.getElementsByTagName("a");
+        for (var i = 0,mylength = myHref.length; i<mylength; i++) {
+            myHref[i].addEventListener("click", function(e){
+                e.preventDefault();
+                console.log('open', this.href);
+                shell.openExternal(this.href);
+            },"false");
+        }
+    </script>
+
+</html>
