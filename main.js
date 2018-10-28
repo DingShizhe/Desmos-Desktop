@@ -102,7 +102,7 @@ function createWindow() {
     }));
 
     // Open devtool
-    win.webContents.openDevTools();
+    // win.webContents.openDevTools();
 
     const menu = Menu.buildFromTemplate(menuTemplate);
 
