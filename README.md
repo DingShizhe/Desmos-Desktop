@@ -1,8 +1,8 @@
 # Desmos Desktop
 
-[Desmos](https://www.desmos.com/about) is an advanced graphing calculator implemented as a web application and a mobile application written in JavaScript. Here is a very simple cross-platform desktop version. **Plotting, saving, opening and exporting offlinely** are supportive. Examples are in 'example' folder.
+[Desmos](https://www.desmos.com/about) is an advanced graphing calculator implemented as a web application and a mobile application written in JavaScript. Here is a very simple cross-platform desktop version. **Plotting, saving, opening and exporting offlinely** are supportive. Examples are in 'examples' folder.
 
-[Desmos](https://www.desmos.com/about) 是一款优秀的、免费的在线数学函数计算器。它基于JavaScript，有在线版和手机版。这里是一个基于[Electron](http://electron.atom.io/)的**简单的离线桌面版**，可以离线绘制和保存以及输出截图，可以安装并尝试example文件夹中的文件。支持linux, Mac 和 Win平台(因为穷，目前还没有在Mac上尝试，但应该是支持的)。
+[Desmos](https://www.desmos.com/about) 是一款优秀的、免费的在线数学函数计算器。它基于JavaScript，有在线版和手机版。这里是一个基于[Electron](http://electron.atom.io/)的**简单的离线桌面版**，可以离线绘制和保存以及输出截图，可以安装并尝试examples文件夹中的文件。支持linux, Mac 和 Win平台(因为穷，目前还没有在Mac上尝试，但应该是支持的)。
 
 <img src="./res/app.png" width="600"/>
 
