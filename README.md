@@ -35,7 +35,8 @@ Now you can use this simple app to
 - Save or reload graph state as `.des` file (just json)
 - Fade out message effect.
 - Note when new a file or close file but current file hasnot been saved
-- Open the last openned file when launch
+- Open the last opened file when launch
+- Use 'examples/getDesByUrl.py' to get `.des` file from desmos website
   .
 
 ## Next

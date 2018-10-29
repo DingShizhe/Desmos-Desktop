@@ -9,7 +9,7 @@ The python script is a little crawler can be used to download desmos file from t
 For example, run this command in terminal.
 
 ```
-python getDesByUrl.py https://www.desmos.com/calculator/4v3pgcuta0
+python3 getDesByUrl.py https://www.desmos.com/calculator/4v3pgcuta0
 ```
 
 Then you will a the  `.des` in current folder if the Internet is accessable.
