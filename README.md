@@ -6,6 +6,12 @@
 
 <img src="./res/app.png" width="600"/>
 
+## Install
+
+The executable binary files have been released  [here](https://github.com/DingShizhe/Desmos-Desktop/releases/tag/v1.0.0). There are only win and linux(ubuntu) version. If you want Mac version(or other platforms), try to build it.
+
+After installation, try to use it to open the `des` files in 'examples'.
+
 ## Build
 ```
 git clone https://github.com/DingShizhe/Desmos-Desktop.git
