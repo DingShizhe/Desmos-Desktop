@@ -12,6 +12,6 @@ For example, run this command in terminal.
 python getDesByUrl.py https://www.desmos.com/calculator/4v3pgcuta0
 ```
 
-Then you will a the  `.des` in current folder the Internet is accessable.
+Then you will a the  `.des` in current folder if the Internet is accessable.
 
 Open it and enjoy. :)
