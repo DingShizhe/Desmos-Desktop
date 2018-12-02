@@ -81,6 +81,24 @@ const menuTemplate = [
     }
 ];
 
+// add mac menu (which is a little bit different from Linux/Win)
+if (process.platform === 'darwin') {
+  menuTemplate.unshift({
+    label: app.getName(),
+    submenu: [
+      {role: 'about'},
+      {type: 'separator'},
+      {role: 'services', submenu: []},
+      {type: 'separator'},
+      {role: 'hide'},
+      {role: 'hideothers'},
+      {role: 'unhide'},
+      {type: 'separator'},
+      {role: 'quit'}
+    ]
+  })
+}
+
 
 // Init win
 let win;
