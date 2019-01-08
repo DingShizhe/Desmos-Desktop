@@ -39,14 +39,14 @@ Now you can use this simple app to
 - Use 'examples/getDesByUrl.py' to get `.des` file from desmos website
   .
 
-## My Artworks
+## My Artworks (except the last one)
 
 Try open `.des` files in 'examples'.
 
-<img src="res/Cardioid.png" width="150"/> <img src="res/Folded Conic Section.png" width="150"/> <img src="res/Folded Conic Section2.png" width="150"/>
+<img src="res/Cardioid.png" width="180"/> <img src="res/Folded Conic Section.png" width="180"/> <img src="res/Folded Conic Section2.png" width="180"/>
 
-<img src="res/Folded Conic Section3.png" width="150"/> <img src="res/Brain.png" width="150"/> <img src="res/Mobius2.png" width="150"/>
+<img src="res/Folded Conic Section3.png" width="180"/> <img src="res/Brain.png" width="180"/> <img src="res/Mobius2.png" width="180"/>
 
-<img src="res/Mobius.png" width="150"/> <img src="res/Astroid.png" width="150"/> <img src="res/Powerpuff Grils.png" width="150"/>
+<img src="res/Mobius.png" width="180"/> <img src="res/Astroid.png" width="180"/> <img src="res/Powerpuff Grils.png" width="180"/>
 
 Hope this helpful. Enjoy ;)
