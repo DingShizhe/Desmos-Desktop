@@ -1,0 +1,185 @@
+{
+    "version": 5,
+    "graph": {
+        "viewport": {
+            "xmin": -6.940063748235457,
+            "ymin": -7.134541429238188,
+            "xmax": 6.961266580431917,
+            "ymax": 6.766788899429186
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "expression",
+                "id": "1",
+                "color": "#c74440",
+                "latex": "N=26",
+                "sliderHardMin": true,
+                "sliderHardMax": true,
+                "sliderMin": "1",
+                "sliderMax": "40",
+                "sliderInterval": "1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "12",
+                "color": "#2d70b3",
+                "latex": "n=\\left[0,\\frac{1}{N},...,\\frac{N-1}{N}\\right]",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "13",
+                "color": "#388c46",
+                "latex": "a=5",
+                "sliderHardMin": true,
+                "sliderHardMax": true,
+                "sliderPlayDirection": -1,
+                "sliderMin": "0",
+                "sliderInterval": "0.2",
+                "style": "SOLID"
+            },
+            {
+                "type": "folder",
+                "id": "18",
+                "title": "Astroid 1  直线截距平方和为定值，椭圆长短半轴之和为定值",
+                "hidden": true,
+                "collapsed": true,
+                "memberIds": {
+                    "15": true,
+                    "17": true,
+                    "24": true,
+                    "25": true,
+                    "32": true
+                }
+            },
+            {
+                "type": "expression",
+                "id": "24",
+                "color": "#c74440",
+                "latex": "x=0\\left\\{-a<y<a\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "25",
+                "color": "#c74440",
+                "latex": "y=0\\left\\{-a<x<a\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "15",
+                "color": "#c74440",
+                "latex": "\\left(\\frac{x}{a\\cdot n}\\right)^2+\\left(\\frac{y}{a\\left(1-n\\right)}\\right)^2=1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "32",
+                "color": "#2d70b3",
+                "latex": "\\frac{\\left|x\\right|}{a\\sqrt{n}}+\\frac{\\left|y\\right|}{a\\sqrt{1-n}}=1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "17",
+                "color": "#000000",
+                "latex": "\\left(\\frac{x}{a}\\right)^{\\frac{2}{3}}+\\left(\\frac{y}{a}\\right)^{\\frac{2}{3}}=1",
+                "hidden": true,
+                "lineStyle": "DASHED",
+                "style": "SOLID"
+            },
+            {
+                "type": "folder",
+                "id": "19",
+                "title": "Astroid 2  直线截距之和为定值，椭圆长短半轴之2/3方和为定值",
+                "hidden": true,
+                "collapsed": true,
+                "memberIds": {
+                    "14": true,
+                    "16": true,
+                    "36": true
+                }
+            },
+            {
+                "type": "expression",
+                "id": "36",
+                "color": "#c74440",
+                "latex": "\\left(\\frac{x}{a\\cdot n^{\\frac{3}{2}}}\\right)^2+\\left(\\frac{y}{a\\left(1-n\\right)^{\\frac{3}{2}}}\\right)^2=1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "16",
+                "color": "#2d70b3",
+                "latex": "\\frac{\\left|x\\right|}{na}+\\frac{\\left|y\\right|}{\\left(1-n\\right)a}=1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "14",
+                "color": "#000000",
+                "latex": "\\left(\\frac{\\left|x\\right|}{a}\\right)^{\\frac{1}{2}}+\\left(\\frac{\\left|y\\right|}{a}\\right)^{\\frac{1}{2}}=1",
+                "lineStyle": "DASHED",
+                "style": "SOLID"
+            },
+            {
+                "type": "folder",
+                "id": "44",
+                "title": "Astroid 3 The end",
+                "hidden": true,
+                "collapsed": true,
+                "memberIds": {
+                    "37": true,
+                    "39": true,
+                    "41": true,
+                    "45": true
+                }
+            },
+            {
+                "type": "expression",
+                "id": "37",
+                "color": "#c74440",
+                "latex": "o=0.5",
+                "sliderHardMin": true,
+                "sliderHardMax": true,
+                "sliderMin": "-2",
+                "sliderMax": "3",
+                "sliderInterval": "0.1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "39",
+                "color": "#c74440",
+                "latex": "\\left(\\frac{x}{a\\cdot n^o}\\right)^2+\\left(\\frac{y}{a\\left(1-n\\right)^o}\\right)^2=1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "41",
+                "color": "#2d70b3",
+                "latex": "\\frac{\\left|x\\right|}{an^{\\left(o-\\frac{1}{2}\\right)}}+\\frac{\\left|y\\right|}{a\\left(1-n\\right)^{\\left(o-\\frac{1}{2}\\right)}}=1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "45",
+                "color": "#000000",
+                "latex": "\\left(\\frac{\\left|x\\right|}{a}\\right)^{\\frac{1}{o+\\frac{1}{2}}}+\\left(\\frac{\\left|y\\right|}{a}\\right)^{\\frac{1}{o+\\frac{1}{2}}}=1",
+                "lineStyle": "DASHED",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "34",
+                "color": "#388c46",
+                "latex": "\\left(\\frac{x}{a\\cdot\\sqrt{n}}\\right)^2+\\left(\\frac{y}{a\\sqrt{1-n}}\\right)^2=1",
+                "style": "SOLID"
+            }
+        ]
+    }
+}

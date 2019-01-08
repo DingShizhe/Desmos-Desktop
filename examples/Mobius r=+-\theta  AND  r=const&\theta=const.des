@@ -1,0 +1,121 @@
+{
+    "version": 5,
+    "graph": {
+        "showXAxis": false,
+        "showYAxis": false,
+        "viewport": {
+            "xmin": -3.765115120931414,
+            "ymin": -3.405975341276975,
+            "xmax": 3.666638759208322,
+            "ymax": 4.025778538862761
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "expression",
+                "id": "1",
+                "color": "#c74440",
+                "latex": "N=6",
+                "sliderHardMin": true,
+                "sliderHardMax": true,
+                "sliderMin": "1",
+                "sliderMax": "20",
+                "sliderInterval": "1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "4",
+                "color": "#6042a6",
+                "latex": "n=\\left[0,...,N-1\\right]",
+                "style": "SOLID"
+            },
+            {
+                "type": "folder",
+                "id": "9",
+                "title": "Circles Axes",
+                "collapsed": true,
+                "memberIds": {
+                    "2": true,
+                    "3": true,
+                    "5": true,
+                    "6": true
+                }
+            },
+            {
+                "type": "expression",
+                "id": "3",
+                "color": "#c74440",
+                "latex": "y\\cdot\\cos\\left(\\frac{\\ n\\ \\pi}{N}\\right)=x\\cdot\\sin\\left(\\frac{\\ n\\ \\pi}{N}\\right)",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "5",
+                "color": "#c74440",
+                "latex": "y=0",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "2",
+                "color": "#2d70b3",
+                "latex": "x^2+y^2=e^{\\frac{2\\pi n}{N}}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "6",
+                "color": "#2d70b3",
+                "latex": "x^2+y^2=e^{-\\frac{2\\pi\\left(n+1\\right)}{N}}",
+                "style": "SOLID"
+            },
+            {
+                "type": "folder",
+                "id": "11",
+                "title": "xxx Axes",
+                "memberIds": {
+                    "7": true,
+                    "12": true,
+                    "13": true,
+                    "14": true
+                }
+            },
+            {
+                "type": "expression",
+                "id": "7",
+                "color": "#388c46",
+                "latex": "r=e^{\\theta-\\frac{\\ \\left(n+1\\right)\\ \\pi}{N}-4\\pi}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "12",
+                "color": "#388c46",
+                "latex": "r=e^{\\theta+\\frac{\\ n\\ \\pi}{N}-4\\pi}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "13",
+                "color": "#6042a6",
+                "latex": "r=e^{-\\theta-\\frac{\\ \\left(n+1\\right)\\ \\pi}{N}+8\\pi}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "14",
+                "color": "#6042a6",
+                "latex": "r=e^{-\\theta+\\frac{\\ n\\ \\pi}{N}+4\\pi}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "15",
+                "color": "#c74440",
+                "style": "SOLID"
+            }
+        ]
+    }
+}

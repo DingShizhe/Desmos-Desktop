@@ -158,7 +158,7 @@ function isSaved() {
     if (StateData.file_path == "" || StateData.last_state == null)
         return false;
     else {
-        if (JSON.stringify(calculator.getState()) == JSON.stringify(StateData.last_state))
+        if (JSON.stringify(calculator.getState().extensions) == JSON.stringify(StateData.last_state.extensions))
             return true;
         else
             return false;

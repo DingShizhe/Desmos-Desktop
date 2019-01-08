@@ -1,14 +1,13 @@
-const {app, BrowserWindow, Menu, dialog, ipcMain, shell} = require('electron');
+const {app, BrowserWindow, Menu, ipcMain} = require('electron');
 const Store = require('electron-store');
 const path = require('path');
 const url = require('url');
-const fs = require('fs');
 
 let safeExit = false;
 
 const store = new Store({
     defaults: {
-      // 800x600 is the default size of our window
+        // 800x600 is the default size of our window
         windowSize: { width: 800, height: 600 },
         windowPos: {x: 200, y: 200}, 
         filePath: null

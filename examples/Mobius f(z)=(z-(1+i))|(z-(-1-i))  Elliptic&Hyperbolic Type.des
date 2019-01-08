@@ -1,0 +1,218 @@
+{
+    "version": 5,
+    "graph": {
+        "showXAxis": false,
+        "showYAxis": false,
+        "viewport": {
+            "xmin": -4.73562252672692,
+            "ymin": -4.73562252672692,
+            "xmax": 4.73562252672692,
+            "ymax": 4.73562252672692
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "expression",
+                "id": "1",
+                "color": "#c74440",
+                "latex": "N=7",
+                "sliderHardMin": true,
+                "sliderHardMax": true,
+                "sliderMin": "1",
+                "sliderMax": "20",
+                "sliderInterval": "1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "8",
+                "color": "#388c46",
+                "latex": "n=\\left[0,...,N-1\\right]",
+                "style": "SOLID"
+            },
+            {
+                "type": "folder",
+                "id": "19",
+                "title": "xxx Axes",
+                "collapsed": true,
+                "memberIds": {
+                    "20": true,
+                    "21": true,
+                    "23": true,
+                    "24": true,
+                    "27": true,
+                    "30": true,
+                    "31": true,
+                    "33": true,
+                    "35": true,
+                    "37": true,
+                    "38": true,
+                    "40": true,
+                    "41": true,
+                    "42": true,
+                    "43": true,
+                    "44": true,
+                    "45": true
+                }
+            },
+            {
+                "type": "expression",
+                "id": "21",
+                "color": "#6042a6",
+                "latex": "t=\\arctan\\left(\\frac{2\\left(x-y\\right)}{-2+x^2+y^2}\\right)",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "35",
+                "color": "#6042a6",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{2t+2\\pi+\\frac{2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2>0\\ \\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "37",
+                "color": "#6042a6",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{2t+2\\pi+\\frac{2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2<0\\ \\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "20",
+                "color": "#6042a6",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{2t+\\frac{2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2>0\\ \\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "38",
+                "color": "#6042a6",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{2t+\\frac{2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2<0\\ \\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "30",
+                "color": "#6042a6",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{2t-2\\pi+\\frac{2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2>0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "40",
+                "color": "#6042a6",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{2t-2\\pi+\\frac{2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2<0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "31",
+                "color": "#6042a6",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{2t-4\\pi+\\frac{2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2<0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "41",
+                "color": "#6042a6",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{2t-4\\pi+\\frac{2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2>0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "23",
+                "color": "#388c46",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-2t+\\frac{\\ 2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2>0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "42",
+                "color": "#388c46",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-2t+\\frac{\\ 2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2<0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "24",
+                "color": "#388c46",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-2t+2\\pi+\\frac{\\ 2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2>0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "43",
+                "color": "#388c46",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-2t+2\\pi+\\frac{\\ 2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2<0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "27",
+                "color": "#388c46",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-2t-2\\pi+\\frac{\\ 2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2>0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "44",
+                "color": "#388c46",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-2t-2\\pi+\\frac{\\ 2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2<0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "33",
+                "color": "#388c46",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-2t-4\\pi+\\frac{\\ 2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2>0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "45",
+                "color": "#388c46",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-2t-4\\pi+\\frac{\\ 2n\\ \\pi}{N}}\\left\\{-2+x^2+y^2<0\\right\\}",
+                "style": "SOLID"
+            },
+            {
+                "type": "folder",
+                "id": "17",
+                "title": "Circles Axes",
+                "collapsed": true,
+                "memberIds": {
+                    "7": true,
+                    "9": true,
+                    "11": true
+                }
+            },
+            {
+                "type": "expression",
+                "id": "9",
+                "color": "#2d70b3",
+                "latex": "\\ \\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{\\frac{2\\pi n}{N}}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "7",
+                "color": "#2d70b3",
+                "latex": "\\frac{2-2x+x^2-2y+y^2}{2+2x+x^2+2y+y^2}=e^{-\\frac{2\\pi\\left(n+1\\right)}{N}}",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "11",
+                "color": "#c74440",
+                "latex": "2(x-y)\\cos\\left(\\frac{\\ n\\ \\pi}{N}\\right)+(-2+x^2+y^2)\\sin\\left(\\frac{n\\ \\pi}{N}\\right)=0",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "34",
+                "color": "#000000",
+                "style": "SOLID"
+            }
+        ]
+    }
+}

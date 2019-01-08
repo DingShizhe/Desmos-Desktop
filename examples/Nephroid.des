@@ -1,0 +1,68 @@
+{
+    "version": 5,
+    "graph": {
+        "viewport": {
+            "xmin": -2.8038124607306005,
+            "ymin": -2.7595983707232787,
+            "xmax": 2.6501307656408577,
+            "ymax": 2.6943448556481804
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "expression",
+                "id": "1",
+                "color": "#c74440",
+                "latex": "N=40",
+                "sliderHardMin": true,
+                "sliderHardMax": true,
+                "sliderMin": "1",
+                "sliderMax": "90",
+                "sliderInterval": "3",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "11",
+                "color": "#c74440",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "2",
+                "color": "#2d70b3",
+                "latex": "s=\\left[0,\\frac{1}{N},...,\\frac{N-1}{N}\\right]\\cdot2\\pi",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "3",
+                "color": "#c74440",
+                "latex": "p=\\left(\\cos\\left(s\\right),\\sin\\left(s\\right)\\right)",
+                "hidden": true,
+                "points": true,
+                "lines": false,
+                "dragMode": "NONE",
+                "labelSize": "small",
+                "labelOrientation": "below",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "10",
+                "color": "#2d70b3",
+                "latex": "x^2+y^2=1",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "6",
+                "color": "#c74440",
+                "latex": "\\left(x-\\cos\\left(s\\right)\\right)^2+\\left(y-\\sin\\left(s\\right)\\right)^2=\\cos\\left(s\\right)^2",
+                "style": "SOLID"
+            }
+        ]
+    }
+}

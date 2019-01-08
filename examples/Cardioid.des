@@ -1,0 +1,77 @@
+{
+    "version": 5,
+    "graph": {
+        "viewport": {
+            "xmin": -4.960827633702445,
+            "ymin": -4.710151114605519,
+            "xmax": 3.897303854186827,
+            "ymax": 4.147980373283754
+        }
+    },
+    "expressions": {
+        "list": [
+            {
+                "type": "expression",
+                "id": "1",
+                "color": "#c74440",
+                "latex": "N=20",
+                "sliderHardMin": true,
+                "sliderHardMax": true,
+                "sliderMin": "1",
+                "sliderMax": "40",
+                "sliderInterval": "1",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "2",
+                "color": "#2d70b3",
+                "latex": "s=\\left[0,\\frac{1}{N},...,\\frac{N-1}{N}\\right]\\cdot2\\pi",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "3",
+                "color": "#c74440",
+                "latex": "p=\\left(\\cos\\left(s\\right),\\sin\\left(s\\right)\\right)",
+                "hidden": true,
+                "points": true,
+                "lines": false,
+                "dragMode": "NONE",
+                "labelSize": "small",
+                "labelOrientation": "below",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "10",
+                "color": "#2d70b3",
+                "latex": "x^2+y^2=1",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "4",
+                "color": "#c74440",
+                "latex": "q=\\left(b,b\\right)",
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "8",
+                "color": "#388c46",
+                "latex": "b=0.98",
+                "hidden": true,
+                "style": "SOLID"
+            },
+            {
+                "type": "expression",
+                "id": "6",
+                "color": "#c74440",
+                "latex": "\\left(x-\\cos\\left(s\\right)\\right)^2+\\left(y-\\sin\\left(s\\right)\\right)^2=\\left(b-\\cos\\left(s\\right)\\right)^2+\\left(b-\\sin\\left(s\\right)\\right)^2",
+                "style": "SOLID"
+            }
+        ]
+    }
+}
