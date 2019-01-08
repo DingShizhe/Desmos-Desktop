@@ -43,16 +43,10 @@ Now you can use this simple app to
 
 Try open `.des` files in 'examples'.
 
-<img src="res/Cardioid.png" width="150"/>
-<img src="res/Folded Conic Section.png" width="150"/>
-<img src="res/Folded Conic Section2.png" width="150"/>
-<img src="res/Folded Conic Section3.png" width="150"/>
+<img src="res/Cardioid.png" width="150"/> <img src="res/Folded Conic Section.png" width="150"/> <img src="res/Folded Conic Section2.png" width="150"/>
 
-<img src="res/Brain.png" width="150"/>
-<img src="res/Mobius2.png" width="150"/>
-<img src="res/Mobius.png" width="150"/>
-<img src="res/Astroid.png" width="150"/>
+<img src="res/Folded Conic Section3.png" width="150"/> <img src="res/Brain.png" width="150"/> <img src="res/Mobius2.png" width="150"/>
 
-<img src="res/Powerpuff Grils.png" width="150"/>
+<img src="res/Mobius.png" width="150"/> <img src="res/Astroid.png" width="150"/> <img src="res/Powerpuff Grils.png" width="150"/>
 
 Hope this helpful. Enjoy ;)
