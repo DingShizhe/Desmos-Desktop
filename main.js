@@ -7,9 +7,9 @@ let safeExit = false;
 
 const store = new Store({
     defaults: {
-        // 800x600 is the default size of our window
-        windowSize: { width: 800, height: 600 },
-        windowPos: {x: 200, y: 200}, 
+        // 1000x600 is the default size of our window
+        windowSize: [ 1000, 600 ],
+        windowPos: [ 200, 200 ], 
         filePath: null
     }
 });
@@ -89,8 +89,13 @@ let infoWin;
 function createWindow() {
     // Create browser window
 
-    let { x, y } = store.get('windowPos');
-    let { width, height } = store.get('windowSize');
+    let pos = store.get('windowPos');
+    let x = pos[0];
+    let y = pos[1];
+
+    let shape = store.get('windowSize');
+    let width = shape[0];
+    let height = shape[1];
 
     win = new BrowserWindow({width: width, height: height, x: x, y: y, icon: path.join(__dirname, '/res/icons/icon.png')});
 
@@ -108,13 +113,13 @@ function createWindow() {
     Menu.setApplicationMenu(menu);
 
     win.on('resize', () => {
-        let { width, height } = win.getSize();
-        store.set('windowSize', { width, height });
+        let size = win.getSize();
+        store.set('windowSize', size);
     });
 
     win.on('move', () => {
-        let {x, y} = win.getPosition();
-        store.set('windowPos', { x, y });
+        let pos = win.getPosition();
+        store.set('windowPos', pos);
     })
     
     win.on('close', (e) => {
