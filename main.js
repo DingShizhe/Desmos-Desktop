@@ -46,12 +46,16 @@ const menuTemplate = [
     },{
         label: 'Edit',
         submenu:[
-            {role: 'undo'},
-            {role: 'redo'},
-            {role: 'copy'},
-            {role: 'paste'},
-            {role: 'selectall'},
-            {role: 'delete'}
+            {
+                label: 'Undo', accelerator: 'CmdOrCtrl+Z',
+                click () {  sendReq('Undo');    }
+            },{
+                label: 'Redo', accelerator: 'CmdOrCtrl+Shift+Z',
+                click () {  sendReq('Redo');    }
+            },{
+                label: 'Clear', accelerator: 'CmdOrCtrl+Shift+C',
+                click () {  sendReq('Clear');    }
+            }
         ]
     },{
         label: 'View',

@@ -205,6 +205,9 @@ ipcRenderer.on('mainprocess-request', (event, arg) => {
         case 'SaveFile':    saveFile();     break;
         case 'SaveAsFile':  saveAsFile();   break;
         case 'ExportImage': exportImage();  break;
+        case 'Undo':        calculator.undo();      break;
+        case 'Redo':        calculator.redo();      break;
+        case 'Clear':       calculator.setBlank();  break;
         case 'Exitting':    exitApp();      break;
         default:            break;
     }
