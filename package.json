@@ -28,6 +28,14 @@
     },
     "win": {
       "icon": "res/icons/icon.png"
+    },
+    "mac": {
+      "category": "public.app-category.education",
+      "icon": "res/icons/icon.icns",
+      "type": "development",
+      "target": [
+        "dmg"
+      ]
     }
   },
   "devDependencies": {
